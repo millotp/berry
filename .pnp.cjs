@@ -434,6 +434,19 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@algolia/client-abtesting", [\
+      ["npm:5.10.2", {\
+        "packageLocation": "./.yarn/cache/@algolia-client-abtesting-npm-5.10.2-9e60999b95-a6ea97e7a6.zip/node_modules/@algolia/client-abtesting/",\
+        "packageDependencies": [\
+          ["@algolia/client-abtesting", "npm:5.10.2"],\
+          ["@algolia/client-common", "npm:5.10.2"],\
+          ["@algolia/requester-browser-xhr", "npm:5.10.2"],\
+          ["@algolia/requester-fetch", "npm:5.10.2"],\
+          ["@algolia/requester-node-http", "npm:5.10.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@algolia/client-account", [\
       ["npm:4.22.1", {\
         "packageLocation": "./.yarn/cache/@algolia-client-account-npm-4.22.1-bd716c00dd-85f3f7f9fa.zip/node_modules/@algolia/client-account/",\
@@ -457,6 +470,17 @@ const RAW_RUNTIME_STATE =
           ["@algolia/transporter", "npm:4.22.1"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:5.10.2", {\
+        "packageLocation": "./.yarn/cache/@algolia-client-analytics-npm-5.10.2-572bf4cf27-377ffeae25.zip/node_modules/@algolia/client-analytics/",\
+        "packageDependencies": [\
+          ["@algolia/client-analytics", "npm:5.10.2"],\
+          ["@algolia/client-common", "npm:5.10.2"],\
+          ["@algolia/requester-browser-xhr", "npm:5.10.2"],\
+          ["@algolia/requester-fetch", "npm:5.10.2"],\
+          ["@algolia/requester-node-http", "npm:5.10.2"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@algolia/client-common", [\
@@ -466,6 +490,26 @@ const RAW_RUNTIME_STATE =
           ["@algolia/client-common", "npm:4.22.1"],\
           ["@algolia/requester-common", "npm:4.22.1"],\
           ["@algolia/transporter", "npm:4.22.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:5.10.2", {\
+        "packageLocation": "./.yarn/cache/@algolia-client-common-npm-5.10.2-7515a44d78-a3e43884ff.zip/node_modules/@algolia/client-common/",\
+        "packageDependencies": [\
+          ["@algolia/client-common", "npm:5.10.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@algolia/client-insights", [\
+      ["npm:5.10.2", {\
+        "packageLocation": "./.yarn/cache/@algolia-client-insights-npm-5.10.2-baaffecccc-939b097c2f.zip/node_modules/@algolia/client-insights/",\
+        "packageDependencies": [\
+          ["@algolia/client-insights", "npm:5.10.2"],\
+          ["@algolia/client-common", "npm:5.10.2"],\
+          ["@algolia/requester-browser-xhr", "npm:5.10.2"],\
+          ["@algolia/requester-fetch", "npm:5.10.2"],\
+          ["@algolia/requester-node-http", "npm:5.10.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -480,6 +524,30 @@ const RAW_RUNTIME_STATE =
           ["@algolia/transporter", "npm:4.22.1"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:5.10.2", {\
+        "packageLocation": "./.yarn/cache/@algolia-client-personalization-npm-5.10.2-c638378ef1-f1a9247d02.zip/node_modules/@algolia/client-personalization/",\
+        "packageDependencies": [\
+          ["@algolia/client-personalization", "npm:5.10.2"],\
+          ["@algolia/client-common", "npm:5.10.2"],\
+          ["@algolia/requester-browser-xhr", "npm:5.10.2"],\
+          ["@algolia/requester-fetch", "npm:5.10.2"],\
+          ["@algolia/requester-node-http", "npm:5.10.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@algolia/client-query-suggestions", [\
+      ["npm:5.10.2", {\
+        "packageLocation": "./.yarn/cache/@algolia-client-query-suggestions-npm-5.10.2-c01884ac9b-e442f5773a.zip/node_modules/@algolia/client-query-suggestions/",\
+        "packageDependencies": [\
+          ["@algolia/client-query-suggestions", "npm:5.10.2"],\
+          ["@algolia/client-common", "npm:5.10.2"],\
+          ["@algolia/requester-browser-xhr", "npm:5.10.2"],\
+          ["@algolia/requester-fetch", "npm:5.10.2"],\
+          ["@algolia/requester-node-http", "npm:5.10.2"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@algolia/client-search", [\
@@ -492,6 +560,17 @@ const RAW_RUNTIME_STATE =
           ["@algolia/transporter", "npm:4.22.1"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:5.10.2", {\
+        "packageLocation": "./.yarn/cache/@algolia-client-search-npm-5.10.2-05c355c5f4-aa24f50598.zip/node_modules/@algolia/client-search/",\
+        "packageDependencies": [\
+          ["@algolia/client-search", "npm:5.10.2"],\
+          ["@algolia/client-common", "npm:5.10.2"],\
+          ["@algolia/requester-browser-xhr", "npm:5.10.2"],\
+          ["@algolia/requester-fetch", "npm:5.10.2"],\
+          ["@algolia/requester-node-http", "npm:5.10.2"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@algolia/events", [\
@@ -499,6 +578,19 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@algolia-events-npm-4.0.1-06815ef938-98d239899a.zip/node_modules/@algolia/events/",\
         "packageDependencies": [\
           ["@algolia/events", "npm:4.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@algolia/ingestion", [\
+      ["npm:1.10.2", {\
+        "packageLocation": "./.yarn/cache/@algolia-ingestion-npm-1.10.2-2abe99cfb9-c2826a6a14.zip/node_modules/@algolia/ingestion/",\
+        "packageDependencies": [\
+          ["@algolia/ingestion", "npm:1.10.2"],\
+          ["@algolia/client-common", "npm:5.10.2"],\
+          ["@algolia/requester-browser-xhr", "npm:5.10.2"],\
+          ["@algolia/requester-fetch", "npm:5.10.2"],\
+          ["@algolia/requester-node-http", "npm:5.10.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -522,12 +614,46 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@algolia/monitoring", [\
+      ["npm:1.10.2", {\
+        "packageLocation": "./.yarn/cache/@algolia-monitoring-npm-1.10.2-8f6ac72d3a-40738d84a1.zip/node_modules/@algolia/monitoring/",\
+        "packageDependencies": [\
+          ["@algolia/monitoring", "npm:1.10.2"],\
+          ["@algolia/client-common", "npm:5.10.2"],\
+          ["@algolia/requester-browser-xhr", "npm:5.10.2"],\
+          ["@algolia/requester-fetch", "npm:5.10.2"],\
+          ["@algolia/requester-node-http", "npm:5.10.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@algolia/recommend", [\
+      ["npm:5.10.2", {\
+        "packageLocation": "./.yarn/cache/@algolia-recommend-npm-5.10.2-dc54436a88-57c8c26ece.zip/node_modules/@algolia/recommend/",\
+        "packageDependencies": [\
+          ["@algolia/recommend", "npm:5.10.2"],\
+          ["@algolia/client-common", "npm:5.10.2"],\
+          ["@algolia/requester-browser-xhr", "npm:5.10.2"],\
+          ["@algolia/requester-fetch", "npm:5.10.2"],\
+          ["@algolia/requester-node-http", "npm:5.10.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@algolia/requester-browser-xhr", [\
       ["npm:4.22.1", {\
         "packageLocation": "./.yarn/cache/@algolia-requester-browser-xhr-npm-4.22.1-3afd6e4da1-825cf73fdc.zip/node_modules/@algolia/requester-browser-xhr/",\
         "packageDependencies": [\
           ["@algolia/requester-browser-xhr", "npm:4.22.1"],\
           ["@algolia/requester-common", "npm:4.22.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:5.10.2", {\
+        "packageLocation": "./.yarn/cache/@algolia-requester-browser-xhr-npm-5.10.2-efceaeac8e-ef7a52c351.zip/node_modules/@algolia/requester-browser-xhr/",\
+        "packageDependencies": [\
+          ["@algolia/requester-browser-xhr", "npm:5.10.2"],\
+          ["@algolia/client-common", "npm:5.10.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -548,12 +674,30 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@algolia/requester-fetch", [\
+      ["npm:5.10.2", {\
+        "packageLocation": "./.yarn/cache/@algolia-requester-fetch-npm-5.10.2-a917e6b5ce-389faa8c8d.zip/node_modules/@algolia/requester-fetch/",\
+        "packageDependencies": [\
+          ["@algolia/requester-fetch", "npm:5.10.2"],\
+          ["@algolia/client-common", "npm:5.10.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@algolia/requester-node-http", [\
       ["npm:4.22.1", {\
         "packageLocation": "./.yarn/cache/@algolia-requester-node-http-npm-4.22.1-3c5ad37333-511348954b.zip/node_modules/@algolia/requester-node-http/",\
         "packageDependencies": [\
           ["@algolia/requester-node-http", "npm:4.22.1"],\
           ["@algolia/requester-common", "npm:4.22.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:5.10.2", {\
+        "packageLocation": "./.yarn/cache/@algolia-requester-node-http-npm-5.10.2-16e6d81f94-aca8d4e22b.zip/node_modules/@algolia/requester-node-http/",\
+        "packageDependencies": [\
+          ["@algolia/requester-node-http", "npm:5.10.2"],\
+          ["@algolia/client-common", "npm:5.10.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -566,26 +710,6 @@ const RAW_RUNTIME_STATE =
           ["@algolia/cache-common", "npm:4.22.1"],\
           ["@algolia/logger-common", "npm:4.22.1"],\
           ["@algolia/requester-common", "npm:4.22.1"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@algolia/ui-components-highlight-vdom", [\
-      ["npm:1.2.1", {\
-        "packageLocation": "./.yarn/cache/@algolia-ui-components-highlight-vdom-npm-1.2.1-3f2eeee143-e42c3e1cdb.zip/node_modules/@algolia/ui-components-highlight-vdom/",\
-        "packageDependencies": [\
-          ["@algolia/ui-components-highlight-vdom", "npm:1.2.1"],\
-          ["@algolia/ui-components-shared", "npm:1.2.1"],\
-          ["@babel/runtime", "npm:7.23.9"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@algolia/ui-components-shared", [\
-      ["npm:1.2.1", {\
-        "packageLocation": "./.yarn/cache/@algolia-ui-components-shared-npm-1.2.1-e6da93c375-c83eb9a4d7.zip/node_modules/@algolia/ui-components-shared/",\
-        "packageDependencies": [\
-          ["@algolia/ui-components-shared", "npm:1.2.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4521,7 +4645,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react", "npm:18.2.54"],\
           ["@types/react-dom", null],\
           ["algoliasearch", "npm:4.22.1"],\
-          ["algoliasearch-helper", "virtual:a563b599619e8821447400a9f171adbb7695fa1ced10ff8993d09ceda6a425f98689808159f5dd68e3244cf10180c0c06c4381dc8a5e7dd344d77d0ea9e739ee#npm:3.16.2"],\
+          ["algoliasearch-helper", "virtual:e6ddc79b298438aaa9c99c692d62b0eaeb1c0478c183e7d0b3c31db57c2f979574fc622d8e5e912c3ebf3efe0e43e7e09b1f815d382c07ce4147a95476c26e3b#npm:3.16.2"],\
           ["clsx", "npm:2.1.0"],\
           ["eta", "npm:2.2.0"],\
           ["fs-extra", "npm:11.2.0"],\
@@ -6910,6 +7034,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/dom-speech-recognition", [\
+      ["npm:0.0.1", {\
+        "packageLocation": "./.yarn/cache/@types-dom-speech-recognition-npm-0.0.1-abff49edcd-9ac74dbfb1.zip/node_modules/@types/dom-speech-recognition/",\
+        "packageDependencies": [\
+          ["@types/dom-speech-recognition", "npm:0.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/dompurify", [\
       ["npm:3.0.2", {\
         "packageLocation": "./.yarn/cache/@types-dompurify-npm-3.0.2-57e9f73fdf-8b69711fe1.zip/node_modules/@types/dompurify/",\
@@ -7022,10 +7155,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/google.maps", [\
-      ["npm:3.50.4", {\
-        "packageLocation": "./.yarn/cache/@types-google.maps-npm-3.50.4-233a915df9-0102cf03ad.zip/node_modules/@types/google.maps/",\
+      ["npm:3.58.1", {\
+        "packageLocation": "./.yarn/cache/@types-google.maps-npm-3.58.1-df719add21-3d5aaa901c.zip/node_modules/@types/google.maps/",\
         "packageDependencies": [\
-          ["@types/google.maps", "npm:3.50.4"]\
+          ["@types/google.maps", "npm:3.58.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7421,29 +7554,6 @@ const RAW_RUNTIME_STATE =
           ["@types/prop-types", "npm:15.7.4"],\
           ["@types/scheduler", "npm:0.16.8"],\
           ["csstype", "npm:3.0.8"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@types/react-instantsearch-core", [\
-      ["npm:6.26.2", {\
-        "packageLocation": "./.yarn/cache/@types-react-instantsearch-core-npm-6.26.2-a563b59961-6a956c8ba1.zip/node_modules/@types/react-instantsearch-core/",\
-        "packageDependencies": [\
-          ["@types/react-instantsearch-core", "npm:6.26.2"],\
-          ["@types/react", "npm:18.2.54"],\
-          ["algoliasearch", "npm:4.22.1"],\
-          ["algoliasearch-helper", "virtual:a563b599619e8821447400a9f171adbb7695fa1ced10ff8993d09ceda6a425f98689808159f5dd68e3244cf10180c0c06c4381dc8a5e7dd344d77d0ea9e739ee#npm:3.16.2"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@types/react-instantsearch-dom", [\
-      ["npm:6.12.3", {\
-        "packageLocation": "./.yarn/cache/@types-react-instantsearch-dom-npm-6.12.3-12ae21ffeb-aa6fe7aacb.zip/node_modules/@types/react-instantsearch-dom/",\
-        "packageDependencies": [\
-          ["@types/react-instantsearch-dom", "npm:6.12.3"],\
-          ["@types/react", "npm:18.2.54"],\
-          ["@types/react-instantsearch-core", "npm:6.26.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -9386,7 +9496,6 @@ const RAW_RUNTIME_STATE =
           ["@types/mdast", "npm:4.0.3"],\
           ["@types/node", "npm:18.19.17"],\
           ["@types/react", "npm:18.2.54"],\
-          ["@types/react-instantsearch-dom", "npm:6.12.3"],\
           ["@types/react-modal", "npm:3.16.0"],\
           ["@types/react-virtualized", "npm:9.21.22"],\
           ["@types/react-window", "npm:1.8.5"],\
@@ -9403,7 +9512,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/pnpify", "workspace:packages/yarnpkg-pnpify"],\
           ["@yarnpkg/sdks", "workspace:packages/yarnpkg-sdks"],\
           ["@yarnpkg/shell", "workspace:packages/yarnpkg-shell"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["ansi-to-html", "npm:0.7.2"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:4.0.0-rc.2"],\
           ["clsx", "npm:1.2.1"],\
@@ -9427,8 +9536,7 @@ const RAW_RUNTIME_STATE =
           ["prism-react-renderer", "virtual:efae73f2e9aa11493dde5182b5b7f0894b5c101cb3c916b74523dc0bde92d8579259d43c7f83a5363dbd8939dc3d1e6c45c5965b9191878533d9a2c19b046d70#npm:2.3.1"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:efae73f2e9aa11493dde5182b5b7f0894b5c101cb3c916b74523dc0bde92d8579259d43c7f83a5363dbd8939dc3d1e6c45c5965b9191878533d9a2c19b046d70#npm:18.2.0"],\
-          ["react-instantsearch-dom", "virtual:efae73f2e9aa11493dde5182b5b7f0894b5c101cb3c916b74523dc0bde92d8579259d43c7f83a5363dbd8939dc3d1e6c45c5965b9191878533d9a2c19b046d70#npm:6.36.0"],\
-          ["react-instantsearch-hooks-web", "virtual:efae73f2e9aa11493dde5182b5b7f0894b5c101cb3c916b74523dc0bde92d8579259d43c7f83a5363dbd8939dc3d1e6c45c5965b9191878533d9a2c19b046d70#npm:6.36.0"],\
+          ["react-instantsearch", "virtual:efae73f2e9aa11493dde5182b5b7f0894b5c101cb3c916b74523dc0bde92d8579259d43c7f83a5363dbd8939dc3d1e6c45c5965b9191878533d9a2c19b046d70#npm:7.13.6"],\
           ["react-json-doc", "virtual:efae73f2e9aa11493dde5182b5b7f0894b5c101cb3c916b74523dc0bde92d8579259d43c7f83a5363dbd8939dc3d1e6c45c5965b9191878533d9a2c19b046d70#npm:2.3.4"],\
           ["react-loading-skeleton", "virtual:efae73f2e9aa11493dde5182b5b7f0894b5c101cb3c916b74523dc0bde92d8579259d43c7f83a5363dbd8939dc3d1e6c45c5965b9191878533d9a2c19b046d70#npm:3.3.1"],\
           ["react-modal", "virtual:efae73f2e9aa11493dde5182b5b7f0894b5c101cb3c916b74523dc0bde92d8579259d43c7f83a5363dbd8939dc3d1e6c45c5965b9191878533d9a2c19b046d70#npm:3.16.1"],\
@@ -12355,7 +12463,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/core", "workspace:packages/yarnpkg-core"],\
           ["@yarnpkg/libui", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#workspace:packages/yarnpkg-libui"],\
           ["@yarnpkg/plugin-essentials", "virtual:10635d85d43c1773f587c2d6565f7a30c3bff1c16e39550dcdd44b3745dd69317ced5e20de16484758df2d6dc9314da646bf356d1ef8485a0dcd939b71a3327c#workspace:packages/plugin-essentials"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:4.0.0-rc.2"],\
           ["diff", "npm:5.1.0"],\
           ["ink", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#patch:ink@npm%3A3.2.0#~/.yarn/patches/ink-npm-3.2.0-2f1df5b094.patch::version=3.2.0&hash=b7953f"],\
@@ -12389,7 +12497,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/core", "workspace:packages/yarnpkg-core"],\
           ["@yarnpkg/libui", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#workspace:packages/yarnpkg-libui"],\
           ["@yarnpkg/plugin-essentials", "virtual:16f564b30745199d7e07a913c371ce0c078051290c6e08b972f07b3f1bf057a6993fe67b7c6ee24931d0b1dd67e1274151612081733a79b961dd8336318fdfb9#workspace:packages/plugin-essentials"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:4.0.0-rc.2"],\
           ["diff", "npm:5.1.0"],\
           ["ink", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#patch:ink@npm%3A3.2.0#~/.yarn/patches/ink-npm-3.2.0-2f1df5b094.patch::version=3.2.0&hash=b7953f"],\
@@ -12423,7 +12531,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/core", "workspace:packages/yarnpkg-core"],\
           ["@yarnpkg/libui", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#workspace:packages/yarnpkg-libui"],\
           ["@yarnpkg/plugin-essentials", "virtual:1c3d72c6b31a8950672985f8306a860ecc80c9a006aac95cf4a7ba13a6e7cc4e095e37186a53c9909e9efe97bc0f7f570a74b3879778e2a2356cdcf407120006#workspace:packages/plugin-essentials"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:4.0.0-rc.2"],\
           ["diff", "npm:5.1.0"],\
           ["ink", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#patch:ink@npm%3A3.2.0#~/.yarn/patches/ink-npm-3.2.0-2f1df5b094.patch::version=3.2.0&hash=b7953f"],\
@@ -12457,7 +12565,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/core", "workspace:packages/yarnpkg-core"],\
           ["@yarnpkg/libui", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#workspace:packages/yarnpkg-libui"],\
           ["@yarnpkg/plugin-essentials", "virtual:2351fd5ac4f83ad35b714d8af9fdeea561ada341d529d0dba50742dd5735dc3750df6c56bd680e14833d5b987026a1eab6618211ea0ef1b34b727372b3c77bc9#workspace:packages/plugin-essentials"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:4.0.0-rc.2"],\
           ["diff", "npm:5.1.0"],\
           ["ink", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#patch:ink@npm%3A3.2.0#~/.yarn/patches/ink-npm-3.2.0-2f1df5b094.patch::version=3.2.0&hash=b7953f"],\
@@ -12491,7 +12599,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/core", "workspace:packages/yarnpkg-core"],\
           ["@yarnpkg/libui", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#workspace:packages/yarnpkg-libui"],\
           ["@yarnpkg/plugin-essentials", "virtual:45a6746f11cef24d8db9429cc5650999571e6bb77a8cfb3904a0e832f542be35246ec490516049308ca15b8678eb03bcf394199e514a8145ec32731af7235c91#workspace:packages/plugin-essentials"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:4.0.0-rc.2"],\
           ["diff", "npm:5.1.0"],\
           ["ink", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#patch:ink@npm%3A3.2.0#~/.yarn/patches/ink-npm-3.2.0-2f1df5b094.patch::version=3.2.0&hash=b7953f"],\
@@ -12525,7 +12633,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/core", "workspace:packages/yarnpkg-core"],\
           ["@yarnpkg/libui", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#workspace:packages/yarnpkg-libui"],\
           ["@yarnpkg/plugin-essentials", "virtual:4864d30fc563f2fd1b72a5e3869493c5f50bf38f98ed3886173d80c044d981c3f68220dbf17f2b5fc5b4c5fba7d0af2e003926efe3487086484049f41c449852#workspace:packages/plugin-essentials"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:4.0.0-rc.2"],\
           ["diff", "npm:5.1.0"],\
           ["ink", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#patch:ink@npm%3A3.2.0#~/.yarn/patches/ink-npm-3.2.0-2f1df5b094.patch::version=3.2.0&hash=b7953f"],\
@@ -12559,7 +12667,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/core", "workspace:packages/yarnpkg-core"],\
           ["@yarnpkg/libui", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#workspace:packages/yarnpkg-libui"],\
           ["@yarnpkg/plugin-essentials", "virtual:4ff153bc11101851444cc464184bde5e42ffd55b3939421c30a4c2b69483c3267c1680de4a4c00a49c98cbbe35e70111bb3c26f5ce8836b703c15cd5b753451a#workspace:packages/plugin-essentials"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:4.0.0-rc.2"],\
           ["diff", "npm:5.1.0"],\
           ["ink", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#patch:ink@npm%3A3.2.0#~/.yarn/patches/ink-npm-3.2.0-2f1df5b094.patch::version=3.2.0&hash=b7953f"],\
@@ -12593,7 +12701,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/core", "workspace:packages/yarnpkg-core"],\
           ["@yarnpkg/libui", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#workspace:packages/yarnpkg-libui"],\
           ["@yarnpkg/plugin-essentials", "virtual:54c8b951e743ea46368d98ac86d4c1ac7d1aa57c9d31cbf6424fa2d918257654f26f71d51dbfe63844c533e97635ff97de50fd37e6e4bf74f2603a98754d6d22#workspace:packages/plugin-essentials"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:4.0.0-rc.2"],\
           ["diff", "npm:5.1.0"],\
           ["ink", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#patch:ink@npm%3A3.2.0#~/.yarn/patches/ink-npm-3.2.0-2f1df5b094.patch::version=3.2.0&hash=b7953f"],\
@@ -12627,7 +12735,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/core", "workspace:packages/yarnpkg-core"],\
           ["@yarnpkg/libui", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#workspace:packages/yarnpkg-libui"],\
           ["@yarnpkg/plugin-essentials", "virtual:6fc63e4d1a1b8c6564cfaaeabf378b05cdf49336a90189d76df005175060690d597b069801c0c39b9c60573a6fba29e7646274224b3007bd7f72c95871114cf2#workspace:packages/plugin-essentials"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:4.0.0-rc.2"],\
           ["diff", "npm:5.1.0"],\
           ["ink", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#patch:ink@npm%3A3.2.0#~/.yarn/patches/ink-npm-3.2.0-2f1df5b094.patch::version=3.2.0&hash=b7953f"],\
@@ -12661,7 +12769,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/core", "workspace:packages/yarnpkg-core"],\
           ["@yarnpkg/libui", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#workspace:packages/yarnpkg-libui"],\
           ["@yarnpkg/plugin-essentials", "virtual:7b82ac5a3734606065dc76f117982c681b5b5076260acfcac869c687f06db0b8c08eae0998f419d64b9e59f6c816bcc70e067c87fa32ffe9cb979faf85cd80b4#workspace:packages/plugin-essentials"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:4.0.0-rc.2"],\
           ["diff", "npm:5.1.0"],\
           ["ink", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#patch:ink@npm%3A3.2.0#~/.yarn/patches/ink-npm-3.2.0-2f1df5b094.patch::version=3.2.0&hash=b7953f"],\
@@ -12695,7 +12803,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/core", "workspace:packages/yarnpkg-core"],\
           ["@yarnpkg/libui", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#workspace:packages/yarnpkg-libui"],\
           ["@yarnpkg/plugin-essentials", "virtual:a4e201fc3c2d8b3ec5632082d407d554bbf8ea8b84182577dde1ce419148ae0981b382a0805280637d50e1132628fef8f78ee6a015164963130b1310a4cca910#workspace:packages/plugin-essentials"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:4.0.0-rc.2"],\
           ["diff", "npm:5.1.0"],\
           ["ink", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#patch:ink@npm%3A3.2.0#~/.yarn/patches/ink-npm-3.2.0-2f1df5b094.patch::version=3.2.0&hash=b7953f"],\
@@ -12729,7 +12837,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/core", "workspace:packages/yarnpkg-core"],\
           ["@yarnpkg/libui", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#workspace:packages/yarnpkg-libui"],\
           ["@yarnpkg/plugin-essentials", "virtual:a7c38e9a420fd3b408ea245831c2c9f0e880eac64b268fab3219f5f0b1d6015f44b1f92d23aabfc6e980bbbbda00a23e9faa983fb98544fab94119ccd31f2440#workspace:packages/plugin-essentials"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:4.0.0-rc.2"],\
           ["diff", "npm:5.1.0"],\
           ["ink", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#patch:ink@npm%3A3.2.0#~/.yarn/patches/ink-npm-3.2.0-2f1df5b094.patch::version=3.2.0&hash=b7953f"],\
@@ -12763,7 +12871,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/core", "workspace:packages/yarnpkg-core"],\
           ["@yarnpkg/libui", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#workspace:packages/yarnpkg-libui"],\
           ["@yarnpkg/plugin-essentials", "virtual:adaf1cec8728346f1bf6a263f1954625a52d60518b8d2084da8a926203282105d2b95fb9da84922062af8d4fc84b8a1c39f220238424024e56f55577bdbc7208#workspace:packages/plugin-essentials"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:4.0.0-rc.2"],\
           ["diff", "npm:5.1.0"],\
           ["ink", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#patch:ink@npm%3A3.2.0#~/.yarn/patches/ink-npm-3.2.0-2f1df5b094.patch::version=3.2.0&hash=b7953f"],\
@@ -12797,7 +12905,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/core", "workspace:packages/yarnpkg-core"],\
           ["@yarnpkg/libui", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#workspace:packages/yarnpkg-libui"],\
           ["@yarnpkg/plugin-essentials", "virtual:b4c0e602e8ac4e01a7b08db41bb5808da767dd1f6802758faa5125fb2423614bb0a8806ee1b30c3a0769f86da15ad37377f5118d93cd93fa48df0008a448fb35#workspace:packages/plugin-essentials"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:4.0.0-rc.2"],\
           ["diff", "npm:5.1.0"],\
           ["ink", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#patch:ink@npm%3A3.2.0#~/.yarn/patches/ink-npm-3.2.0-2f1df5b094.patch::version=3.2.0&hash=b7953f"],\
@@ -12831,7 +12939,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/core", "workspace:packages/yarnpkg-core"],\
           ["@yarnpkg/libui", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#workspace:packages/yarnpkg-libui"],\
           ["@yarnpkg/plugin-essentials", "virtual:b63ad861025672af62aed0e7c80dca4cfce3194ca046161e54fc14c498c39e3b82004ea844489c7a58d2f1a31867f388bf25b8128f5ccce46f35305e1f91e9ab#workspace:packages/plugin-essentials"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:4.0.0-rc.2"],\
           ["diff", "npm:5.1.0"],\
           ["ink", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#patch:ink@npm%3A3.2.0#~/.yarn/patches/ink-npm-3.2.0-2f1df5b094.patch::version=3.2.0&hash=b7953f"],\
@@ -12865,7 +12973,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/core", "workspace:packages/yarnpkg-core"],\
           ["@yarnpkg/libui", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#workspace:packages/yarnpkg-libui"],\
           ["@yarnpkg/plugin-essentials", "virtual:c4bd2716e35986fb2e70f5fba6e9570c69eceabc69282df5bcff5d22c6b7d0e696d0cfb4bcbd9a20675fe3e2eb6192b59d41b97baa8b27e1d474b94eeda3f778#workspace:packages/plugin-essentials"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:4.0.0-rc.2"],\
           ["diff", "npm:5.1.0"],\
           ["ink", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#patch:ink@npm%3A3.2.0#~/.yarn/patches/ink-npm-3.2.0-2f1df5b094.patch::version=3.2.0&hash=b7953f"],\
@@ -12899,7 +13007,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/core", "workspace:packages/yarnpkg-core"],\
           ["@yarnpkg/libui", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#workspace:packages/yarnpkg-libui"],\
           ["@yarnpkg/plugin-essentials", "virtual:ce4dc3135569e847b88addae1199f9468fb0b37867e1a86ba6725f71b9df587a8ae43356ae86c3bfe3b0cbbf07dcf8c1a4a95199810d9f20df387eec0a1e1965#workspace:packages/plugin-essentials"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:4.0.0-rc.2"],\
           ["diff", "npm:5.1.0"],\
           ["ink", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#patch:ink@npm%3A3.2.0#~/.yarn/patches/ink-npm-3.2.0-2f1df5b094.patch::version=3.2.0&hash=b7953f"],\
@@ -12933,7 +13041,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/core", "workspace:packages/yarnpkg-core"],\
           ["@yarnpkg/libui", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#workspace:packages/yarnpkg-libui"],\
           ["@yarnpkg/plugin-essentials", "virtual:d1d72d9e3903ca8b8d9c23a360395cc764db2689e5992ef9af91c79f03a839db10ec675af9e4c1c8f4842aff1a614eb5b115fcc0afe8256630151ef1252de94b#workspace:packages/plugin-essentials"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:4.0.0-rc.2"],\
           ["diff", "npm:5.1.0"],\
           ["ink", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#patch:ink@npm%3A3.2.0#~/.yarn/patches/ink-npm-3.2.0-2f1df5b094.patch::version=3.2.0&hash=b7953f"],\
@@ -12967,7 +13075,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/core", "workspace:packages/yarnpkg-core"],\
           ["@yarnpkg/libui", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#workspace:packages/yarnpkg-libui"],\
           ["@yarnpkg/plugin-essentials", "virtual:f8376ca2bc11738adced76b97627e7eff07ec08f93f5b76caf8d6bd4f78f5ae9c1911cb9d1a0bd256ef3e0601dedeba933acf0d2381588b6513ee81e25626459#workspace:packages/plugin-essentials"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:4.0.0-rc.2"],\
           ["diff", "npm:5.1.0"],\
           ["ink", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#patch:ink@npm%3A3.2.0#~/.yarn/patches/ink-npm-3.2.0-2f1df5b094.patch::version=3.2.0&hash=b7953f"],\
@@ -12998,7 +13106,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/core", "workspace:packages/yarnpkg-core"],\
           ["@yarnpkg/libui", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#workspace:packages/yarnpkg-libui"],\
           ["@yarnpkg/plugin-essentials", "virtual:a4e4e792796cefb4fb82f09187fa18bf4c97a9cb5b106da0eab6189e1895a4bb9bf068e5c91168fec85cee1392df48e4a120f3bae6cbbbde019ff2c21186a374#workspace:packages/plugin-essentials"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:4.0.0-rc.2"],\
           ["diff", "npm:5.1.0"],\
           ["ink", "virtual:8d898fef98e932beba43b4d6618011f697787e7fd2f52624eb7daef58d4ae47c2c0be4a00e4cbfbae536ebdaf948ef2fd37ad5cb2fa89c56ad66c9e7ff10f073#patch:ink@npm%3A3.2.0#~/.yarn/patches/ink-npm-3.2.0-2f1df5b094.patch::version=3.2.0&hash=b7953f"],\
@@ -17125,7 +17233,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["@yarnpkg/plugin-essentials", "virtual:10635d85d43c1773f587c2d6565f7a30c3bff1c16e39550dcdd44b3745dd69317ced5e20de16484758df2d6dc9314da646bf356d1ef8485a0dcd939b71a3327c#workspace:packages/plugin-essentials"],\
           ["@yarnpkg/plugin-pack", "virtual:10635d85d43c1773f587c2d6565f7a30c3bff1c16e39550dcdd44b3745dd69317ced5e20de16484758df2d6dc9314da646bf356d1ef8485a0dcd939b71a3327c#workspace:packages/plugin-pack"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["semver", "npm:7.6.0"],\
           ["tslib", "npm:2.6.2"]\
         ],\
@@ -17154,7 +17262,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["@yarnpkg/plugin-essentials", "virtual:16f564b30745199d7e07a913c371ce0c078051290c6e08b972f07b3f1bf057a6993fe67b7c6ee24931d0b1dd67e1274151612081733a79b961dd8336318fdfb9#workspace:packages/plugin-essentials"],\
           ["@yarnpkg/plugin-pack", "virtual:16f564b30745199d7e07a913c371ce0c078051290c6e08b972f07b3f1bf057a6993fe67b7c6ee24931d0b1dd67e1274151612081733a79b961dd8336318fdfb9#workspace:packages/plugin-pack"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["semver", "npm:7.6.0"],\
           ["tslib", "npm:2.6.2"]\
         ],\
@@ -17183,7 +17291,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["@yarnpkg/plugin-essentials", "virtual:1c3d72c6b31a8950672985f8306a860ecc80c9a006aac95cf4a7ba13a6e7cc4e095e37186a53c9909e9efe97bc0f7f570a74b3879778e2a2356cdcf407120006#workspace:packages/plugin-essentials"],\
           ["@yarnpkg/plugin-pack", "virtual:1c3d72c6b31a8950672985f8306a860ecc80c9a006aac95cf4a7ba13a6e7cc4e095e37186a53c9909e9efe97bc0f7f570a74b3879778e2a2356cdcf407120006#workspace:packages/plugin-pack"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["semver", "npm:7.6.0"],\
           ["tslib", "npm:2.6.2"]\
         ],\
@@ -17212,7 +17320,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["@yarnpkg/plugin-essentials", "virtual:2351fd5ac4f83ad35b714d8af9fdeea561ada341d529d0dba50742dd5735dc3750df6c56bd680e14833d5b987026a1eab6618211ea0ef1b34b727372b3c77bc9#workspace:packages/plugin-essentials"],\
           ["@yarnpkg/plugin-pack", "virtual:2351fd5ac4f83ad35b714d8af9fdeea561ada341d529d0dba50742dd5735dc3750df6c56bd680e14833d5b987026a1eab6618211ea0ef1b34b727372b3c77bc9#workspace:packages/plugin-pack"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["semver", "npm:7.6.0"],\
           ["tslib", "npm:2.6.2"]\
         ],\
@@ -17241,7 +17349,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["@yarnpkg/plugin-essentials", "virtual:45a6746f11cef24d8db9429cc5650999571e6bb77a8cfb3904a0e832f542be35246ec490516049308ca15b8678eb03bcf394199e514a8145ec32731af7235c91#workspace:packages/plugin-essentials"],\
           ["@yarnpkg/plugin-pack", "virtual:45a6746f11cef24d8db9429cc5650999571e6bb77a8cfb3904a0e832f542be35246ec490516049308ca15b8678eb03bcf394199e514a8145ec32731af7235c91#workspace:packages/plugin-pack"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["semver", "npm:7.6.0"],\
           ["tslib", "npm:2.6.2"]\
         ],\
@@ -17270,7 +17378,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["@yarnpkg/plugin-essentials", "virtual:4864d30fc563f2fd1b72a5e3869493c5f50bf38f98ed3886173d80c044d981c3f68220dbf17f2b5fc5b4c5fba7d0af2e003926efe3487086484049f41c449852#workspace:packages/plugin-essentials"],\
           ["@yarnpkg/plugin-pack", "virtual:4864d30fc563f2fd1b72a5e3869493c5f50bf38f98ed3886173d80c044d981c3f68220dbf17f2b5fc5b4c5fba7d0af2e003926efe3487086484049f41c449852#workspace:packages/plugin-pack"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["semver", "npm:7.6.0"],\
           ["tslib", "npm:2.6.2"]\
         ],\
@@ -17299,7 +17407,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["@yarnpkg/plugin-essentials", "virtual:4ff153bc11101851444cc464184bde5e42ffd55b3939421c30a4c2b69483c3267c1680de4a4c00a49c98cbbe35e70111bb3c26f5ce8836b703c15cd5b753451a#workspace:packages/plugin-essentials"],\
           ["@yarnpkg/plugin-pack", "virtual:4ff153bc11101851444cc464184bde5e42ffd55b3939421c30a4c2b69483c3267c1680de4a4c00a49c98cbbe35e70111bb3c26f5ce8836b703c15cd5b753451a#workspace:packages/plugin-pack"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["semver", "npm:7.6.0"],\
           ["tslib", "npm:2.6.2"]\
         ],\
@@ -17328,7 +17436,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["@yarnpkg/plugin-essentials", "virtual:54c8b951e743ea46368d98ac86d4c1ac7d1aa57c9d31cbf6424fa2d918257654f26f71d51dbfe63844c533e97635ff97de50fd37e6e4bf74f2603a98754d6d22#workspace:packages/plugin-essentials"],\
           ["@yarnpkg/plugin-pack", "virtual:54c8b951e743ea46368d98ac86d4c1ac7d1aa57c9d31cbf6424fa2d918257654f26f71d51dbfe63844c533e97635ff97de50fd37e6e4bf74f2603a98754d6d22#workspace:packages/plugin-pack"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["semver", "npm:7.6.0"],\
           ["tslib", "npm:2.6.2"]\
         ],\
@@ -17357,7 +17465,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["@yarnpkg/plugin-essentials", "virtual:6fc63e4d1a1b8c6564cfaaeabf378b05cdf49336a90189d76df005175060690d597b069801c0c39b9c60573a6fba29e7646274224b3007bd7f72c95871114cf2#workspace:packages/plugin-essentials"],\
           ["@yarnpkg/plugin-pack", "virtual:27ebb8cf1fa70157f710b4926b6d25c44192e74dbac3a766c8dc6505a59ebc433221bfb4b5aabc8cca814bbe95fcb6e1ecffcf94ba96ee6112a57c89364571ac#workspace:packages/plugin-pack"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["semver", "npm:7.6.0"],\
           ["tslib", "npm:2.6.2"]\
         ],\
@@ -17386,7 +17494,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["@yarnpkg/plugin-essentials", "virtual:7b82ac5a3734606065dc76f117982c681b5b5076260acfcac869c687f06db0b8c08eae0998f419d64b9e59f6c816bcc70e067c87fa32ffe9cb979faf85cd80b4#workspace:packages/plugin-essentials"],\
           ["@yarnpkg/plugin-pack", "virtual:8bb72793b532d34e63bbc26264dcbcfc4dc4faa0a42627635e997081722bf229d67b7a677d86a568dad949d756630e45b9d4da97ee14b1b4c506494f8a58ea91#workspace:packages/plugin-pack"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["semver", "npm:7.6.0"],\
           ["tslib", "npm:2.6.2"]\
         ],\
@@ -17415,7 +17523,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["@yarnpkg/plugin-essentials", "virtual:a4e201fc3c2d8b3ec5632082d407d554bbf8ea8b84182577dde1ce419148ae0981b382a0805280637d50e1132628fef8f78ee6a015164963130b1310a4cca910#workspace:packages/plugin-essentials"],\
           ["@yarnpkg/plugin-pack", "virtual:a4e201fc3c2d8b3ec5632082d407d554bbf8ea8b84182577dde1ce419148ae0981b382a0805280637d50e1132628fef8f78ee6a015164963130b1310a4cca910#workspace:packages/plugin-pack"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["semver", "npm:7.6.0"],\
           ["tslib", "npm:2.6.2"]\
         ],\
@@ -17444,7 +17552,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["@yarnpkg/plugin-essentials", "virtual:a7c38e9a420fd3b408ea245831c2c9f0e880eac64b268fab3219f5f0b1d6015f44b1f92d23aabfc6e980bbbbda00a23e9faa983fb98544fab94119ccd31f2440#workspace:packages/plugin-essentials"],\
           ["@yarnpkg/plugin-pack", "virtual:a7c38e9a420fd3b408ea245831c2c9f0e880eac64b268fab3219f5f0b1d6015f44b1f92d23aabfc6e980bbbbda00a23e9faa983fb98544fab94119ccd31f2440#workspace:packages/plugin-pack"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["semver", "npm:7.6.0"],\
           ["tslib", "npm:2.6.2"]\
         ],\
@@ -17473,7 +17581,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["@yarnpkg/plugin-essentials", "virtual:adaf1cec8728346f1bf6a263f1954625a52d60518b8d2084da8a926203282105d2b95fb9da84922062af8d4fc84b8a1c39f220238424024e56f55577bdbc7208#workspace:packages/plugin-essentials"],\
           ["@yarnpkg/plugin-pack", "virtual:adaf1cec8728346f1bf6a263f1954625a52d60518b8d2084da8a926203282105d2b95fb9da84922062af8d4fc84b8a1c39f220238424024e56f55577bdbc7208#workspace:packages/plugin-pack"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["semver", "npm:7.6.0"],\
           ["tslib", "npm:2.6.2"]\
         ],\
@@ -17502,7 +17610,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["@yarnpkg/plugin-essentials", "virtual:b4c0e602e8ac4e01a7b08db41bb5808da767dd1f6802758faa5125fb2423614bb0a8806ee1b30c3a0769f86da15ad37377f5118d93cd93fa48df0008a448fb35#workspace:packages/plugin-essentials"],\
           ["@yarnpkg/plugin-pack", "virtual:b4c0e602e8ac4e01a7b08db41bb5808da767dd1f6802758faa5125fb2423614bb0a8806ee1b30c3a0769f86da15ad37377f5118d93cd93fa48df0008a448fb35#workspace:packages/plugin-pack"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["semver", "npm:7.6.0"],\
           ["tslib", "npm:2.6.2"]\
         ],\
@@ -17531,7 +17639,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["@yarnpkg/plugin-essentials", "virtual:b63ad861025672af62aed0e7c80dca4cfce3194ca046161e54fc14c498c39e3b82004ea844489c7a58d2f1a31867f388bf25b8128f5ccce46f35305e1f91e9ab#workspace:packages/plugin-essentials"],\
           ["@yarnpkg/plugin-pack", "virtual:b63ad861025672af62aed0e7c80dca4cfce3194ca046161e54fc14c498c39e3b82004ea844489c7a58d2f1a31867f388bf25b8128f5ccce46f35305e1f91e9ab#workspace:packages/plugin-pack"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["semver", "npm:7.6.0"],\
           ["tslib", "npm:2.6.2"]\
         ],\
@@ -17560,7 +17668,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["@yarnpkg/plugin-essentials", "virtual:c4bd2716e35986fb2e70f5fba6e9570c69eceabc69282df5bcff5d22c6b7d0e696d0cfb4bcbd9a20675fe3e2eb6192b59d41b97baa8b27e1d474b94eeda3f778#workspace:packages/plugin-essentials"],\
           ["@yarnpkg/plugin-pack", "virtual:c4bd2716e35986fb2e70f5fba6e9570c69eceabc69282df5bcff5d22c6b7d0e696d0cfb4bcbd9a20675fe3e2eb6192b59d41b97baa8b27e1d474b94eeda3f778#workspace:packages/plugin-pack"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["semver", "npm:7.6.0"],\
           ["tslib", "npm:2.6.2"]\
         ],\
@@ -17589,7 +17697,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["@yarnpkg/plugin-essentials", "virtual:ce4dc3135569e847b88addae1199f9468fb0b37867e1a86ba6725f71b9df587a8ae43356ae86c3bfe3b0cbbf07dcf8c1a4a95199810d9f20df387eec0a1e1965#workspace:packages/plugin-essentials"],\
           ["@yarnpkg/plugin-pack", "virtual:ce4dc3135569e847b88addae1199f9468fb0b37867e1a86ba6725f71b9df587a8ae43356ae86c3bfe3b0cbbf07dcf8c1a4a95199810d9f20df387eec0a1e1965#workspace:packages/plugin-pack"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["semver", "npm:7.6.0"],\
           ["tslib", "npm:2.6.2"]\
         ],\
@@ -17618,7 +17726,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["@yarnpkg/plugin-essentials", "virtual:d1d72d9e3903ca8b8d9c23a360395cc764db2689e5992ef9af91c79f03a839db10ec675af9e4c1c8f4842aff1a614eb5b115fcc0afe8256630151ef1252de94b#workspace:packages/plugin-essentials"],\
           ["@yarnpkg/plugin-pack", "virtual:d1d72d9e3903ca8b8d9c23a360395cc764db2689e5992ef9af91c79f03a839db10ec675af9e4c1c8f4842aff1a614eb5b115fcc0afe8256630151ef1252de94b#workspace:packages/plugin-pack"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["semver", "npm:7.6.0"],\
           ["tslib", "npm:2.6.2"]\
         ],\
@@ -17647,7 +17755,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["@yarnpkg/plugin-essentials", "virtual:f8376ca2bc11738adced76b97627e7eff07ec08f93f5b76caf8d6bd4f78f5ae9c1911cb9d1a0bd256ef3e0601dedeba933acf0d2381588b6513ee81e25626459#workspace:packages/plugin-essentials"],\
           ["@yarnpkg/plugin-pack", "virtual:4a733c8d9614e2148392368219d98ec1a70b4e8ce99164edd551241b22f6c5233e9d0ccf9f6d83265c8a5aafc617cfd3c4100b3efef1e092a42053c23770ed9a#workspace:packages/plugin-pack"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["semver", "npm:7.6.0"],\
           ["tslib", "npm:2.6.2"]\
         ],\
@@ -17673,7 +17781,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["@yarnpkg/plugin-essentials", "virtual:27ebb8cf1fa70157f710b4926b6d25c44192e74dbac3a766c8dc6505a59ebc433221bfb4b5aabc8cca814bbe95fcb6e1ecffcf94ba96ee6112a57c89364571ac#workspace:packages/plugin-essentials"],\
           ["@yarnpkg/plugin-pack", "virtual:27ebb8cf1fa70157f710b4926b6d25c44192e74dbac3a766c8dc6505a59ebc433221bfb4b5aabc8cca814bbe95fcb6e1ecffcf94ba96ee6112a57c89364571ac#workspace:packages/plugin-pack"],\
-          ["algoliasearch", "npm:4.22.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
           ["semver", "npm:7.6.0"],\
           ["tslib", "npm:2.6.2"]\
         ],\
@@ -19291,6 +19399,26 @@ const RAW_RUNTIME_STATE =
           ["@algolia/transporter", "npm:4.22.1"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:5.10.2", {\
+        "packageLocation": "./.yarn/cache/algoliasearch-npm-5.10.2-dd07c570ee-3181cf976f.zip/node_modules/algoliasearch/",\
+        "packageDependencies": [\
+          ["algoliasearch", "npm:5.10.2"],\
+          ["@algolia/client-abtesting", "npm:5.10.2"],\
+          ["@algolia/client-analytics", "npm:5.10.2"],\
+          ["@algolia/client-common", "npm:5.10.2"],\
+          ["@algolia/client-insights", "npm:5.10.2"],\
+          ["@algolia/client-personalization", "npm:5.10.2"],\
+          ["@algolia/client-query-suggestions", "npm:5.10.2"],\
+          ["@algolia/client-search", "npm:5.10.2"],\
+          ["@algolia/ingestion", "npm:1.10.2"],\
+          ["@algolia/monitoring", "npm:1.10.2"],\
+          ["@algolia/recommend", "npm:5.10.2"],\
+          ["@algolia/requester-browser-xhr", "npm:5.10.2"],\
+          ["@algolia/requester-fetch", "npm:5.10.2"],\
+          ["@algolia/requester-node-http", "npm:5.10.2"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["algoliasearch-helper", [\
@@ -19301,13 +19429,34 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:a563b599619e8821447400a9f171adbb7695fa1ced10ff8993d09ceda6a425f98689808159f5dd68e3244cf10180c0c06c4381dc8a5e7dd344d77d0ea9e739ee#npm:3.16.2", {\
-        "packageLocation": "./.yarn/__virtual__/algoliasearch-helper-virtual-060de248cc/0/cache/algoliasearch-helper-npm-3.16.2-55dbe52648-a708f26d9d.zip/node_modules/algoliasearch-helper/",\
+      ["npm:3.22.5", {\
+        "packageLocation": "./.yarn/cache/algoliasearch-helper-npm-3.22.5-41679cd57a-51cccc627f.zip/node_modules/algoliasearch-helper/",\
         "packageDependencies": [\
-          ["algoliasearch-helper", "virtual:a563b599619e8821447400a9f171adbb7695fa1ced10ff8993d09ceda6a425f98689808159f5dd68e3244cf10180c0c06c4381dc8a5e7dd344d77d0ea9e739ee#npm:3.16.2"],\
+          ["algoliasearch-helper", "npm:3.22.5"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:e6ddc79b298438aaa9c99c692d62b0eaeb1c0478c183e7d0b3c31db57c2f979574fc622d8e5e912c3ebf3efe0e43e7e09b1f815d382c07ce4147a95476c26e3b#npm:3.16.2", {\
+        "packageLocation": "./.yarn/__virtual__/algoliasearch-helper-virtual-ff17875ba3/0/cache/algoliasearch-helper-npm-3.16.2-55dbe52648-a708f26d9d.zip/node_modules/algoliasearch-helper/",\
+        "packageDependencies": [\
+          ["algoliasearch-helper", "virtual:e6ddc79b298438aaa9c99c692d62b0eaeb1c0478c183e7d0b3c31db57c2f979574fc622d8e5e912c3ebf3efe0e43e7e09b1f815d382c07ce4147a95476c26e3b#npm:3.16.2"],\
           ["@algolia/events", "npm:4.0.1"],\
           ["@types/algoliasearch", null],\
           ["algoliasearch", "npm:4.22.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/algoliasearch",\
+          "algoliasearch"\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["virtual:f052df5220c543c94efc8c3d67c81f42cfe9ce36cab905e665babf76dc64bafbc32ecd2da9b1d7aef193e7d5962a9e038421f9a84bf87b85683626507aafff24#npm:3.22.5", {\
+        "packageLocation": "./.yarn/__virtual__/algoliasearch-helper-virtual-6c182e24ef/0/cache/algoliasearch-helper-npm-3.22.5-41679cd57a-51cccc627f.zip/node_modules/algoliasearch-helper/",\
+        "packageDependencies": [\
+          ["algoliasearch-helper", "virtual:f052df5220c543c94efc8c3d67c81f42cfe9ce36cab905e665babf76dc64bafbc32ecd2da9b1d7aef193e7d5962a9e038421f9a84bf87b85683626507aafff24#npm:3.22.5"],\
+          ["@algolia/events", "npm:4.0.1"],\
+          ["@types/algoliasearch", null],\
+          ["algoliasearch", "npm:5.10.2"]\
         ],\
         "packagePeers": [\
           "@types/algoliasearch",\
@@ -25954,33 +26103,42 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["instantsearch.js", [\
-      ["npm:4.48.0", {\
-        "packageLocation": "./.yarn/cache/instantsearch.js-npm-4.48.0-49090fd8a1-5fc52679ae.zip/node_modules/instantsearch.js/",\
+    ["instantsearch-ui-components", [\
+      ["npm:0.9.0", {\
+        "packageLocation": "./.yarn/cache/instantsearch-ui-components-npm-0.9.0-dddb550dc1-a488c18d59.zip/node_modules/instantsearch-ui-components/",\
         "packageDependencies": [\
-          ["instantsearch.js", "npm:4.48.0"]\
+          ["instantsearch-ui-components", "npm:0.9.0"],\
+          ["@babel/runtime", "npm:7.23.9"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["instantsearch.js", [\
+      ["npm:4.75.3", {\
+        "packageLocation": "./.yarn/cache/instantsearch.js-npm-4.75.3-ab26fb4a11-c67363242c.zip/node_modules/instantsearch.js/",\
+        "packageDependencies": [\
+          ["instantsearch.js", "npm:4.75.3"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:cf3c0f1df91f28e02adb6be548ecf38e79e46df91fc766e4907ba9500aa5086d6387ada9480cd17a3107f649a93cee101a2cabe5574e3306a0e7cb381f20d3e3#npm:4.48.0", {\
-        "packageLocation": "./.yarn/__virtual__/instantsearch.js-virtual-833fb19f74/0/cache/instantsearch.js-npm-4.48.0-49090fd8a1-5fc52679ae.zip/node_modules/instantsearch.js/",\
+      ["virtual:31108858694fc264c078e80aa4281192fd3a5cb160fcc54106476ef4fb9bfb4ccf4d16732d6049175ada5599f9c973a753f0a05d2eaef63fed63cd59d39c9638#npm:4.75.3", {\
+        "packageLocation": "./.yarn/__virtual__/instantsearch.js-virtual-f052df5220/0/cache/instantsearch.js-npm-4.75.3-ab26fb4a11-c67363242c.zip/node_modules/instantsearch.js/",\
         "packageDependencies": [\
-          ["instantsearch.js", "virtual:cf3c0f1df91f28e02adb6be548ecf38e79e46df91fc766e4907ba9500aa5086d6387ada9480cd17a3107f649a93cee101a2cabe5574e3306a0e7cb381f20d3e3#npm:4.48.0"],\
+          ["instantsearch.js", "virtual:31108858694fc264c078e80aa4281192fd3a5cb160fcc54106476ef4fb9bfb4ccf4d16732d6049175ada5599f9c973a753f0a05d2eaef63fed63cd59d39c9638#npm:4.75.3"],\
           ["@algolia/events", "npm:4.0.1"],\
-          ["@algolia/ui-components-highlight-vdom", "npm:1.2.1"],\
-          ["@algolia/ui-components-shared", "npm:1.2.1"],\
           ["@types/algoliasearch", null],\
-          ["@types/google.maps", "npm:3.50.4"],\
+          ["@types/dom-speech-recognition", "npm:0.0.1"],\
+          ["@types/google.maps", "npm:3.58.1"],\
           ["@types/hogan.js", "npm:3.0.1"],\
           ["@types/qs", "npm:6.9.7"],\
-          ["algoliasearch", "npm:4.22.1"],\
-          ["algoliasearch-helper", "virtual:a563b599619e8821447400a9f171adbb7695fa1ced10ff8993d09ceda6a425f98689808159f5dd68e3244cf10180c0c06c4381dc8a5e7dd344d77d0ea9e739ee#npm:3.16.2"],\
-          ["classnames", "npm:2.3.2"],\
+          ["algoliasearch", "npm:5.10.2"],\
+          ["algoliasearch-helper", "virtual:f052df5220c543c94efc8c3d67c81f42cfe9ce36cab905e665babf76dc64bafbc32ecd2da9b1d7aef193e7d5962a9e038421f9a84bf87b85683626507aafff24#npm:3.22.5"],\
           ["hogan.js", "npm:3.0.2"],\
           ["htm", "npm:3.1.1"],\
+          ["instantsearch-ui-components", "npm:0.9.0"],\
           ["preact", "npm:10.11.2"],\
           ["qs", "npm:6.9.7"],\
-          ["search-insights", "npm:2.2.1"]\
+          ["search-insights", "npm:2.17.2"]\
         ],\
         "packagePeers": [\
           "@types/algoliasearch",\
@@ -32443,130 +32601,65 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["react-instantsearch", [\
+      ["npm:7.13.6", {\
+        "packageLocation": "./.yarn/cache/react-instantsearch-npm-7.13.6-c615c8e081-a4f18d4b0d.zip/node_modules/react-instantsearch/",\
+        "packageDependencies": [\
+          ["react-instantsearch", "npm:7.13.6"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:efae73f2e9aa11493dde5182b5b7f0894b5c101cb3c916b74523dc0bde92d8579259d43c7f83a5363dbd8939dc3d1e6c45c5965b9191878533d9a2c19b046d70#npm:7.13.6", {\
+        "packageLocation": "./.yarn/__virtual__/react-instantsearch-virtual-3110885869/0/cache/react-instantsearch-npm-7.13.6-c615c8e081-a4f18d4b0d.zip/node_modules/react-instantsearch/",\
+        "packageDependencies": [\
+          ["react-instantsearch", "virtual:efae73f2e9aa11493dde5182b5b7f0894b5c101cb3c916b74523dc0bde92d8579259d43c7f83a5363dbd8939dc3d1e6c45c5965b9191878533d9a2c19b046d70#npm:7.13.6"],\
+          ["@babel/runtime", "npm:7.23.9"],\
+          ["@types/algoliasearch", null],\
+          ["@types/react", "npm:18.2.54"],\
+          ["@types/react-dom", null],\
+          ["algoliasearch", "npm:5.10.2"],\
+          ["instantsearch-ui-components", "npm:0.9.0"],\
+          ["instantsearch.js", "virtual:31108858694fc264c078e80aa4281192fd3a5cb160fcc54106476ef4fb9bfb4ccf4d16732d6049175ada5599f9c973a753f0a05d2eaef63fed63cd59d39c9638#npm:4.75.3"],\
+          ["react", "npm:18.2.0"],\
+          ["react-dom", "virtual:efae73f2e9aa11493dde5182b5b7f0894b5c101cb3c916b74523dc0bde92d8579259d43c7f83a5363dbd8939dc3d1e6c45c5965b9191878533d9a2c19b046d70#npm:18.2.0"],\
+          ["react-instantsearch-core", "virtual:31108858694fc264c078e80aa4281192fd3a5cb160fcc54106476ef4fb9bfb4ccf4d16732d6049175ada5599f9c973a753f0a05d2eaef63fed63cd59d39c9638#npm:7.13.6"]\
+        ],\
+        "packagePeers": [\
+          "@types/algoliasearch",\
+          "@types/react-dom",\
+          "@types/react",\
+          "algoliasearch",\
+          "react-dom",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["react-instantsearch-core", [\
-      ["npm:6.36.0", {\
-        "packageLocation": "./.yarn/cache/react-instantsearch-core-npm-6.36.0-9456453e48-912f5bca7a.zip/node_modules/react-instantsearch-core/",\
+      ["npm:7.13.6", {\
+        "packageLocation": "./.yarn/cache/react-instantsearch-core-npm-7.13.6-93961da3bc-fd002ce9dd.zip/node_modules/react-instantsearch-core/",\
         "packageDependencies": [\
-          ["react-instantsearch-core", "npm:6.36.0"]\
+          ["react-instantsearch-core", "npm:7.13.6"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:7059ce19f90012c3163fb81aa15e785d265791039d4b68fdf94ffdb0a65af5f987fa67e8d34e74fc751a755a2441c1780fe79c0dd779cd10c005cad89b8b1654#npm:6.36.0", {\
-        "packageLocation": "./.yarn/__virtual__/react-instantsearch-core-virtual-8254cf9061/0/cache/react-instantsearch-core-npm-6.36.0-9456453e48-912f5bca7a.zip/node_modules/react-instantsearch-core/",\
+      ["virtual:31108858694fc264c078e80aa4281192fd3a5cb160fcc54106476ef4fb9bfb4ccf4d16732d6049175ada5599f9c973a753f0a05d2eaef63fed63cd59d39c9638#npm:7.13.6", {\
+        "packageLocation": "./.yarn/__virtual__/react-instantsearch-core-virtual-40a62568f3/0/cache/react-instantsearch-core-npm-7.13.6-93961da3bc-fd002ce9dd.zip/node_modules/react-instantsearch-core/",\
         "packageDependencies": [\
-          ["react-instantsearch-core", "virtual:7059ce19f90012c3163fb81aa15e785d265791039d4b68fdf94ffdb0a65af5f987fa67e8d34e74fc751a755a2441c1780fe79c0dd779cd10c005cad89b8b1654#npm:6.36.0"],\
+          ["react-instantsearch-core", "virtual:31108858694fc264c078e80aa4281192fd3a5cb160fcc54106476ef4fb9bfb4ccf4d16732d6049175ada5599f9c973a753f0a05d2eaef63fed63cd59d39c9638#npm:7.13.6"],\
           ["@babel/runtime", "npm:7.23.9"],\
           ["@types/algoliasearch", null],\
           ["@types/react", "npm:18.2.54"],\
-          ["algoliasearch", "npm:4.22.1"],\
-          ["algoliasearch-helper", "virtual:a563b599619e8821447400a9f171adbb7695fa1ced10ff8993d09ceda6a425f98689808159f5dd68e3244cf10180c0c06c4381dc8a5e7dd344d77d0ea9e739ee#npm:3.16.2"],\
-          ["prop-types", "npm:15.8.1"],\
+          ["algoliasearch", "npm:5.10.2"],\
+          ["algoliasearch-helper", "virtual:f052df5220c543c94efc8c3d67c81f42cfe9ce36cab905e665babf76dc64bafbc32ecd2da9b1d7aef193e7d5962a9e038421f9a84bf87b85683626507aafff24#npm:3.22.5"],\
+          ["instantsearch.js", "virtual:31108858694fc264c078e80aa4281192fd3a5cb160fcc54106476ef4fb9bfb4ccf4d16732d6049175ada5599f9c973a753f0a05d2eaef63fed63cd59d39c9638#npm:4.75.3"],\
           ["react", "npm:18.2.0"],\
-          ["react-fast-compare", "npm:3.2.0"]\
+          ["use-sync-external-store", "virtual:40a62568f3ff713603f937938b35d29c715521de4464a88233f3a02a2caea1cceca191f2a03cb6d8c627e2620b5f194de4cf841ec9826047a45fe351009434ab#npm:1.2.0"]\
         ],\
         "packagePeers": [\
           "@types/algoliasearch",\
           "@types/react",\
           "algoliasearch",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["react-instantsearch-dom", [\
-      ["npm:6.36.0", {\
-        "packageLocation": "./.yarn/cache/react-instantsearch-dom-npm-6.36.0-4b5812c99e-6a143d8faf.zip/node_modules/react-instantsearch-dom/",\
-        "packageDependencies": [\
-          ["react-instantsearch-dom", "npm:6.36.0"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:efae73f2e9aa11493dde5182b5b7f0894b5c101cb3c916b74523dc0bde92d8579259d43c7f83a5363dbd8939dc3d1e6c45c5965b9191878533d9a2c19b046d70#npm:6.36.0", {\
-        "packageLocation": "./.yarn/__virtual__/react-instantsearch-dom-virtual-7059ce19f9/0/cache/react-instantsearch-dom-npm-6.36.0-4b5812c99e-6a143d8faf.zip/node_modules/react-instantsearch-dom/",\
-        "packageDependencies": [\
-          ["react-instantsearch-dom", "virtual:efae73f2e9aa11493dde5182b5b7f0894b5c101cb3c916b74523dc0bde92d8579259d43c7f83a5363dbd8939dc3d1e6c45c5965b9191878533d9a2c19b046d70#npm:6.36.0"],\
-          ["@babel/runtime", "npm:7.23.9"],\
-          ["@types/algoliasearch", null],\
-          ["@types/react", "npm:18.2.54"],\
-          ["@types/react-dom", null],\
-          ["algoliasearch", "npm:4.22.1"],\
-          ["algoliasearch-helper", "virtual:a563b599619e8821447400a9f171adbb7695fa1ced10ff8993d09ceda6a425f98689808159f5dd68e3244cf10180c0c06c4381dc8a5e7dd344d77d0ea9e739ee#npm:3.16.2"],\
-          ["classnames", "npm:2.3.2"],\
-          ["prop-types", "npm:15.8.1"],\
-          ["react", "npm:18.2.0"],\
-          ["react-dom", "virtual:efae73f2e9aa11493dde5182b5b7f0894b5c101cb3c916b74523dc0bde92d8579259d43c7f83a5363dbd8939dc3d1e6c45c5965b9191878533d9a2c19b046d70#npm:18.2.0"],\
-          ["react-fast-compare", "npm:3.2.0"],\
-          ["react-instantsearch-core", "virtual:7059ce19f90012c3163fb81aa15e785d265791039d4b68fdf94ffdb0a65af5f987fa67e8d34e74fc751a755a2441c1780fe79c0dd779cd10c005cad89b8b1654#npm:6.36.0"]\
-        ],\
-        "packagePeers": [\
-          "@types/algoliasearch",\
-          "@types/react-dom",\
-          "@types/react",\
-          "algoliasearch",\
-          "react-dom",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["react-instantsearch-hooks", [\
-      ["npm:6.36.0", {\
-        "packageLocation": "./.yarn/cache/react-instantsearch-hooks-npm-6.36.0-751aeaeac0-7b10ca6b38.zip/node_modules/react-instantsearch-hooks/",\
-        "packageDependencies": [\
-          ["react-instantsearch-hooks", "npm:6.36.0"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:cf3c0f1df91f28e02adb6be548ecf38e79e46df91fc766e4907ba9500aa5086d6387ada9480cd17a3107f649a93cee101a2cabe5574e3306a0e7cb381f20d3e3#npm:6.36.0", {\
-        "packageLocation": "./.yarn/__virtual__/react-instantsearch-hooks-virtual-c53fe775ed/0/cache/react-instantsearch-hooks-npm-6.36.0-751aeaeac0-7b10ca6b38.zip/node_modules/react-instantsearch-hooks/",\
-        "packageDependencies": [\
-          ["react-instantsearch-hooks", "virtual:cf3c0f1df91f28e02adb6be548ecf38e79e46df91fc766e4907ba9500aa5086d6387ada9480cd17a3107f649a93cee101a2cabe5574e3306a0e7cb381f20d3e3#npm:6.36.0"],\
-          ["@babel/runtime", "npm:7.23.9"],\
-          ["@types/algoliasearch", null],\
-          ["@types/react", "npm:18.2.54"],\
-          ["algoliasearch", "npm:4.22.1"],\
-          ["algoliasearch-helper", "virtual:a563b599619e8821447400a9f171adbb7695fa1ced10ff8993d09ceda6a425f98689808159f5dd68e3244cf10180c0c06c4381dc8a5e7dd344d77d0ea9e739ee#npm:3.16.2"],\
-          ["instantsearch.js", "virtual:cf3c0f1df91f28e02adb6be548ecf38e79e46df91fc766e4907ba9500aa5086d6387ada9480cd17a3107f649a93cee101a2cabe5574e3306a0e7cb381f20d3e3#npm:4.48.0"],\
-          ["react", "npm:18.2.0"],\
-          ["use-sync-external-store", "virtual:c53fe775edc50bf6f97807713adc7e17e8d5cd1abec50e397fae567ba77628c8449baa79cda13b29d6bba3ec939b0df2b651f61e84a8898d8ebda8744b02b9b8#npm:1.2.0"]\
-        ],\
-        "packagePeers": [\
-          "@types/algoliasearch",\
-          "@types/react",\
-          "algoliasearch",\
-          "react"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["react-instantsearch-hooks-web", [\
-      ["npm:6.36.0", {\
-        "packageLocation": "./.yarn/cache/react-instantsearch-hooks-web-npm-6.36.0-7a7c664ff9-ef341a845c.zip/node_modules/react-instantsearch-hooks-web/",\
-        "packageDependencies": [\
-          ["react-instantsearch-hooks-web", "npm:6.36.0"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:efae73f2e9aa11493dde5182b5b7f0894b5c101cb3c916b74523dc0bde92d8579259d43c7f83a5363dbd8939dc3d1e6c45c5965b9191878533d9a2c19b046d70#npm:6.36.0", {\
-        "packageLocation": "./.yarn/__virtual__/react-instantsearch-hooks-web-virtual-cf3c0f1df9/0/cache/react-instantsearch-hooks-web-npm-6.36.0-7a7c664ff9-ef341a845c.zip/node_modules/react-instantsearch-hooks-web/",\
-        "packageDependencies": [\
-          ["react-instantsearch-hooks-web", "virtual:efae73f2e9aa11493dde5182b5b7f0894b5c101cb3c916b74523dc0bde92d8579259d43c7f83a5363dbd8939dc3d1e6c45c5965b9191878533d9a2c19b046d70#npm:6.36.0"],\
-          ["@babel/runtime", "npm:7.23.9"],\
-          ["@types/algoliasearch", null],\
-          ["@types/react", "npm:18.2.54"],\
-          ["@types/react-dom", null],\
-          ["algoliasearch", "npm:4.22.1"],\
-          ["instantsearch.js", "virtual:cf3c0f1df91f28e02adb6be548ecf38e79e46df91fc766e4907ba9500aa5086d6387ada9480cd17a3107f649a93cee101a2cabe5574e3306a0e7cb381f20d3e3#npm:4.48.0"],\
-          ["react", "npm:18.2.0"],\
-          ["react-dom", "virtual:efae73f2e9aa11493dde5182b5b7f0894b5c101cb3c916b74523dc0bde92d8579259d43c7f83a5363dbd8939dc3d1e6c45c5965b9191878533d9a2c19b046d70#npm:18.2.0"],\
-          ["react-instantsearch-hooks", "virtual:cf3c0f1df91f28e02adb6be548ecf38e79e46df91fc766e4907ba9500aa5086d6387ada9480cd17a3107f649a93cee101a2cabe5574e3306a0e7cb381f20d3e3#npm:6.36.0"]\
-        ],\
-        "packagePeers": [\
-          "@types/algoliasearch",\
-          "@types/react-dom",\
-          "@types/react",\
-          "algoliasearch",\
-          "react-dom",\
           "react"\
         ],\
         "linkType": "HARD"\
@@ -33956,10 +34049,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["search-insights", [\
-      ["npm:2.2.1", {\
-        "packageLocation": "./.yarn/cache/search-insights-npm-2.2.1-4d82e361bc-9b1f2aeb69.zip/node_modules/search-insights/",\
+      ["npm:2.17.2", {\
+        "packageLocation": "./.yarn/cache/search-insights-npm-2.17.2-b9e3923286-ceb21f6383.zip/node_modules/search-insights/",\
         "packageDependencies": [\
-          ["search-insights", "npm:2.2.1"]\
+          ["search-insights", "npm:2.17.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -36355,10 +36448,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:c53fe775edc50bf6f97807713adc7e17e8d5cd1abec50e397fae567ba77628c8449baa79cda13b29d6bba3ec939b0df2b651f61e84a8898d8ebda8744b02b9b8#npm:1.2.0", {\
-        "packageLocation": "./.yarn/__virtual__/use-sync-external-store-virtual-933ce06e50/0/cache/use-sync-external-store-npm-1.2.0-44f75d2564-a676216aff.zip/node_modules/use-sync-external-store/",\
+      ["virtual:40a62568f3ff713603f937938b35d29c715521de4464a88233f3a02a2caea1cceca191f2a03cb6d8c627e2620b5f194de4cf841ec9826047a45fe351009434ab#npm:1.2.0", {\
+        "packageLocation": "./.yarn/__virtual__/use-sync-external-store-virtual-a773fea4b4/0/cache/use-sync-external-store-npm-1.2.0-44f75d2564-a676216aff.zip/node_modules/use-sync-external-store/",\
         "packageDependencies": [\
-          ["use-sync-external-store", "virtual:c53fe775edc50bf6f97807713adc7e17e8d5cd1abec50e397fae567ba77628c8449baa79cda13b29d6bba3ec939b0df2b651f61e84a8898d8ebda8744b02b9b8#npm:1.2.0"],\
+          ["use-sync-external-store", "virtual:40a62568f3ff713603f937938b35d29c715521de4464a88233f3a02a2caea1cceca191f2a03cb6d8c627e2620b5f194de4cf841ec9826047a45fe351009434ab#npm:1.2.0"],\
           ["@types/react", "npm:18.2.54"],\
           ["react", "npm:18.2.0"]\
         ],\

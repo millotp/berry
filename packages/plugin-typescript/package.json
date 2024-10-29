@@ -10,7 +10,7 @@
   "dependencies": {
     "@yarnpkg/fslib": "workspace:^",
     "@yarnpkg/plugin-pack": "workspace:^",
-    "algoliasearch": "^4.2.0",
+    "algoliasearch": "^5.10.2",
     "semver": "^7.1.2",
     "tslib": "^2.4.0"
   },

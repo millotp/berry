@@ -1,7 +1,7 @@
 import {Request, Requester, Response} from '@algolia/requester-common';
 import {Configuration, Descriptor}    from '@yarnpkg/core';
 import {httpUtils, structUtils}       from '@yarnpkg/core';
-import algoliasearch                  from 'algoliasearch';
+import {algoliasearch}                from 'algoliasearch';
 
 // Note that the appId and appKey are specific to Yarn's plugin-typescript - please
 // don't use them anywhere else without asking Algolia's permission
@@ -20,10 +20,13 @@ export const hasDefinitelyTyped = async (
 ) => {
   const stringifiedIdent = structUtils.stringifyIdent(descriptor);
   const algoliaClient = createAlgoliaClient(configuration);
-  const index = algoliaClient.initIndex(`npm-search`);
 
   try {
-    const packageInfo = await index.getObject<AlgoliaObj>(stringifiedIdent, {attributesToRetrieve: [`types`]});
+    const packageInfo = await algoliaClient.getObject<AlgoliaObj>({
+      indexName: `npm-search`,
+      objectID: stringifiedIdent,
+      attributesToRetrieve: [`types`],
+    });
 
     return packageInfo.types?.ts === `definitely-typed`;
   } catch (_e) {

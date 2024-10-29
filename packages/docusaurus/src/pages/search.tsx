@@ -61,9 +61,7 @@ function useHitsWithDefaults(query: string): Array<any> {
   const [defaults, setDefaults] = useState<Array<any> | null>(null);
 
   useEffect(() => {
-    searchClient.customRequest({method: `POST`, path: `/1/indexes/*/objects`}, {
-      data: {requests: defaultRequests},
-    }).then(({results}: any) => {
+    searchClient.getObjects(defaultRequests).then(({results}: any) => {
       setDefaults(results);
     });
   }, []);
